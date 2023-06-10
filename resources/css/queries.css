@@ -1,0 +1,102 @@
+
+
+
+/* big tablet from 1023px to 1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    /* .header{
+        padding: 60% 0;
+    } */
+    .row{padding: 0 2%;}
+}
+
+
+/* small tablet to big tablet from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .hero-text-box{
+        width: 100% !important;
+        padding: 0 2%;
+    }
+    html,body{font-size: 18px !important;}
+    .row-head{
+        padding: 0 1%;
+    }
+    .long-copy{
+        width: 85% !important;
+        margin-left: 10% !important;
+    }
+    blockquote div {
+        height: 175px !important;
+    }
+    .plan-box{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .contact-form{
+        width: 80% !important;
+    }
+    
+}
+
+/* small phone from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    html,body{font-size: 15px !important;}
+    .works-step div {
+       
+        width: 35px !important;
+        height: 35px !important;
+        padding: px !important;
+        margin-right: 20px !important;
+        float: left !important;
+        font-size: 120% !important;
+    }
+    .app-screen {
+        margin: 0  !important;
+        width: 50% !important;
+    }
+    .steps-box:last-child {
+    margin-top: 40px !important;}
+    .btn-app img {
+        height: 40px !important;
+        }
+    .icon-small{
+        margin-right: 5px !important;
+        width: 20px !important;
+    }
+    .extra div h3{
+        height: 30px !important;
+    }
+    .col-height {
+        height: 150px !important;
+    }
+    section {
+        padding: 60px 0 !important;
+    }
+    .col{
+        width: 100% !important;
+        margin: 0 0 4% 0 !important;
+    }
+    .main-nav{
+        display: none;
+    }
+}
+
+
+/* small phone from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section{padding: 30px 0 !important;}
+    blockquote div {
+        height: 70px !important;
+    }
+    .contact-form {
+        width: 90% !important;
+    }
+    .social-links, .footer-nav {
+        margin: 0 auto !important;
+        text-align: center;
+        float: none  !important;
+    }
+  }
